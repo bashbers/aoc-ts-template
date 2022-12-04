@@ -2,6 +2,7 @@ import Puzzle from '../../types/AbstractPuzzle';
 
 export default class ConcretePuzzle extends Puzzle {
   public solveFirst(): string {
+    console.log(this.input);
     return 'day 1 solution 1';
   }
   public solveSecond(): string {
@@ -12,6 +13,6 @@ export default class ConcretePuzzle extends Puzzle {
     return 'day 1 solution 1';
   }
   public getSecondExpectedResult(): string {
-    return 'day 1 solution 2';
+    return "day 1 solution 2";
   }
 }

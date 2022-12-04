@@ -2,7 +2,7 @@ import Puzzle from '../../types/AbstractPuzzle';
 
 export default class ConcretePuzzle extends Puzzle {
   public solveFirst(): string {
-    // WRITE SOLUTION FOR TEST 1
+    // WRITE SOLUTION FOR TEST 1 
     return 'day 1 solution 1';
   }
 

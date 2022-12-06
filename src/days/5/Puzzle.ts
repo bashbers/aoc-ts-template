@@ -3,7 +3,6 @@ import Puzzle from '../../types/AbstractPuzzle';
 
 export default class ConcretePuzzle extends Puzzle {
   public solveFirst(): string {
-    return;
     const lines = this.input.split('\n');
     var boxes = this.createDrawingArray(lines);
 
